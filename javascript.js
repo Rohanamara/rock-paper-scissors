@@ -5,4 +5,14 @@ function getComputerChoice(){
     return rps[choice];
 }
 
-console.log(getComputerChoice());
+const computer = getComputerChoice();
+
+function getHumanChoice(){
+    const choice = prompt("Choose rock/paper/scissor");
+
+    return choice;  
+}
+
+const human = getHumanChoice();
+
+
